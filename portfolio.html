@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--header design-->
+    <header class="Header">
+        <a href="#" class="logo">Portfolio</a>
+        <!-- <i class='bx bx-menu' ></i> -->
+        <img src="./toggle-menu.png" class='' id="menu-icon" />
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Himanshu kumar</h1>
+            <h3>And I'm a <span>web developer</span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae voluptates aperiam repellat consequatur
+                impedit dicta harum error.</p>
+            <div class="social-media ">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-image">
+            <img src="home-image.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About section design-->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="about-image.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer !</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Blanditiis porro architecto amet accusamus consequuntur aliquam
+                nesciunt mollitia impedit laboriosam neque magni, facere molestias
+                nostrum laborum dolore, odio totam, omnis magnam distinctio nemo quae
+                saepe quasi soluta. Nulla, suscipit ipsa eveniet in enim et iure accusamus expedita?</p>
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+    </section>
+
+    <!--Service section design-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    A dignissimos suscipit ad, error porro, voluptatem nihil
+                    alias quas .</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphics Design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    A dignissimos suscipit ad, error porro, voluptatem nihil
+                    alias quas mollitia voluptatum atque soluta, quia tenetur.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-camera'></i>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    A dignissimos suscipit ad, error porro, voluptatem nihil
+                    alias quas mollitia voluptatum atque soluta, quia tenetur.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio-1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio-2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Graphic Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio-3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Photography</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="portfolio-4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Wordpress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Himanshu Kumar | All Rights Reserved.</p>
+
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!--Custum JS-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
